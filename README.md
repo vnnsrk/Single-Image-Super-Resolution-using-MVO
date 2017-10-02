@@ -7,4 +7,4 @@ We train the model using `trainingPatchExtraction.m` and the test scripts are pr
 
 The scripts `psnrCalc.m` and `ssim_wl.m` are provided for model evaluation.
 
-The paper is provided at [Single Image SISR](www.github.com/vnnsrk/Single_image_SISR.pdf)
+The paper is provided at [Single Image SISR](www.github.com/vnnsrk/Single_Image_SISR.pdf)
