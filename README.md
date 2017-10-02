@@ -6,6 +6,7 @@ Matrix valued image super-resolution is a novel topic of research that uses the 
 ## Data 
 The data should be downloaded from this [link](https://drive.google.com/drive/folders/0B_Cz1ZeaITeDNVFOWWJpZUN1c3c?usp=sharing), and moved to the Data folder.
 
+## Training and Testing
 We train the model using `trainingPatchExtraction.m` and the test scripts are provided in `testingPatchExtraction.m`.
 
 The scripts `psnrCalc.m` and `ssim_wl.m` are provided for model evaluation.
