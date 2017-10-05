@@ -17,6 +17,7 @@
 % psnrlr - Low resolution PSNR
 
 %% Set up env
+w=[10 10];
 wb=w(1);
 wl=w(2);
 co=0;

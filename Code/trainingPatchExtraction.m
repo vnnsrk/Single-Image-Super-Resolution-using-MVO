@@ -1,9 +1,9 @@
 % Author - Srinath Narayanan
 % For Single image SR project
 
-clc;
-clear;
-close all;
+% clc;
+% clear;
+% close all;
 
 %% Pre-defined variables for window size, zoom factor and number of images to consider
 w=[27 27]; zom=4; numimg=[1 435];
