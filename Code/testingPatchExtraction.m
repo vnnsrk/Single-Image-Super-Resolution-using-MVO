@@ -62,14 +62,14 @@ it3=ycbcr2rgb(uint8(imsr));   %(1:outsize(1),1:outsize(2),:)
 % % sizehr
 % % imshow(it1);
 % % title('Org image full resolution');
-% str1=strcat('C:\Users\SREENATH\Documents\MATLAB\collegeOut\col',timg,'_gnd.tiff');
+% str1=strcat('..\Data\Test\col',timg,'_gnd.tiff');
 % imwrite(it1,str1);
 
 % % figure;
 % % imshow(it2);
 % % sizelr=size(it2);
 % % sizelr
-% st2=strcat('C:\Users\SREENATH\Documents\MATLAB\collegeOut\col',timg,'_lr_z',num2str(zom),'.tiff');
+% st2=strcat('..\Data\Test\col',timg,'_lr_z',num2str(zom),'.tiff');
 % imwrite(it2,st2);
 % title('Org image LOW resolution');
 
@@ -77,7 +77,7 @@ it3=ycbcr2rgb(uint8(imsr));   %(1:outsize(1),1:outsize(2),:)
 % (1:(end-wl+1),1:(end-wb+1),:)     
 % imshow(it3);
 % title('OUT IMAGE ');
-% str3=strcat('C:\Users\SREENATH\Documents\MATLAB\collegeOut\col',timg,'_out_',wrkn2,'.tiff');
+% str3=strcat('..\Data\Test\col',timg,'_out_',wrkn2,'.tiff');
 % imwrite(it3,str3);
 
 %% ERROR IN ORIGINAL LINEARLY INTERPOLATED IMAGE
